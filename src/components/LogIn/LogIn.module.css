@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  background: url("../../assets/LogIN/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* height: 24rem;
+  width: 22rem; */
+  /* background-color: white; */
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 1.8rem 2rem;
+  min-height: 22rem;
+  min-width: 18rem;
+}
+
+.container > div > p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  opacity: 2;
+}
+
+.container > div {
+  margin-top: 16px;
+}
+
+.label {
+  font-size: 13px;
+  margin-bottom: 20px !important;
+  color: white;
+  font-weight: 600;
+}
+
+.inputBox {
+  border: none;
+  padding: 6px;
+  width: 95%;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.inputBox:focus {
+  outline: 1px solid #a3ebe7;
+}
+
+.pass {
+  font-size: 11px;
+  text-align: right;
+  margin-right: 2px;
+  cursor: pointer;
+  color: #004263;
+  font-weight: 520;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 20px;
+  padding: 9px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #4f7c71;
+  color: white;
+}
+
+.last {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 17px;
+  letter-spacing: 2;
+  color: white;
+  font-weight: 600;
+}
